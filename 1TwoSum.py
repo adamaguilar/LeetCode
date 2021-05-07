@@ -4,13 +4,8 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 '''
 
-class Solution(object):
+class Solution:
     def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
         for num in range(len(nums)):
             num2 = num + 1
             while num2 < len(nums):
