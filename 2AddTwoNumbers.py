@@ -4,18 +4,13 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 '''
 
 # Definition for singly-linked list.
-class ListNode(object):
+class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
-class Solution(object):
+class Solution:
     def addTwoNumbers(self, l1, l2):
-        """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        """
         result = l3 = ListNode(0)
         carry = 0
         while l1 or l2 or carry:
